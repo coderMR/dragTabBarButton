@@ -27,10 +27,10 @@
     UINavigationController *nav1 = self.viewControllers.lastObject;
     nav0.tabBarItem.image = [UIImage imageNamed:@"mine"];
     nav0.tabBarItem.selectedImage = [UIImage imageNamed:@"mine_selected"];
-    nav0.tabBarItem.title = @"关心";
+//    nav0.tabBarItem.title = @"关心";
     nav1.tabBarItem.image = [UIImage imageNamed:@"news"];
     nav1.tabBarItem.selectedImage = [UIImage imageNamed:@"news_selected"];
-    nav1.tabBarItem.title = @"新闻";
+//    nav1.tabBarItem.title = @"新闻";
     
     // title的属性字典
     NSMutableDictionary *norAttrs = [NSMutableDictionary dictionary];
